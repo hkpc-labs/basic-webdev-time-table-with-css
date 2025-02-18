@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f8f8f8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.days {
+    background-color: #f8c471;
+    font-weight: bold;
+}
+
+.subject {
+    background-color: #aed6f1;
+}
+
+.lunch {
+    background-color: #f7dc6f;
+    font-weight: bold;
+}
+
+.time {
+    background-color: #d5dbdb;
+}
